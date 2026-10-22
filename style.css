@@ -27,19 +27,19 @@ body {
 
 .caixa-principal {
   width: min(900px, 92%);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(244, 235, 255, 0.9));
-  border: 1px solid rgba(140, 90, 231, 0.15);
+  background: linear-gradient(180deg, rgba(214, 105, 105, 0.82), rgba(161, 103, 233, 0.9));
+  border: 1px solid rgba(34, 85, 224, 0.555);
   border-radius: 24px;
   text-align: center;
   padding: 32px 24px;
-  box-shadow: 0 20px 45px rgba(126, 88, 190, 0.18);
+  box-shadow: 0 20px 45px rgba(207, 61, 183, 0.596);
 }
 
 h1 {
   color: var(--cor-destaque-escuro);
   margin: 0;
   font-size: clamp(2rem, 3vw, 3rem);
-  text-shadow: 0 2px 8px rgba(140, 90, 231, 0.15);
+  text-shadow: 0 2px 8px rgb(224, 221, 222);
 }
 
 .caixa-alternativas {
@@ -50,7 +50,7 @@ h1 {
 }
 
 .caixa-alternativas button {
-  background: linear-gradient(135deg, var(--cor-secundaria), #e5d8ff);
+  background: linear-gradient(135deg, var(--cor-secundaria), #f0ee8a);
   border: 1px solid var(--cor-borda);
   border-radius: 12px;
   color: var(--cor-texto);
@@ -59,14 +59,14 @@ h1 {
   font-weight: 600;
   padding: 14px 18px;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
-  box-shadow: 0 10px 20px rgba(140, 90, 231, 0.12);
+  box-shadow: 0 10px 20px rgba(44, 158, 114, 0.966);
 }
 
 .caixa-alternativas button:hover {
   background: linear-gradient(135deg, var(--cor-destaque), var(--cor-destaque-escuro));
-  color: white;
+  color: rgb(105, 66, 66);
   transform: translateY(-2px);
-  box-shadow: 0 12px 20px rgba(111, 63, 207, 0.22);
+  box-shadow: 0 12px 20px rgba(111, 63, 207, 0.644);
 }
 
 .caixa-resultado {
